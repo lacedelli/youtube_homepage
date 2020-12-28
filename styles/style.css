@@ -14,6 +14,12 @@ body {
      HEADER
  ********************/
 
+.hamburgerw
+.youtube-logo,
+#search {
+  cursor: pointer;
+}
+
 header {
   padding: 0px 16px;
   height: 56px;
@@ -40,9 +46,45 @@ header * {
 .youtube-logo {
   position: relative;
   top: 10px;
-  margin-left: 5px;
+  margin-left: 20px;
   height: 21px;
   width: 90px;
   background-size: 90px;
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1280px-YouTube_Logo_2017.svg.png);
+}
+
+.header-center {
+  position: relative;
+  left: 150px;
+  bottom: 1px;
+}
+
+#search {
+  width: 500px;
+  height: 30px;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px 0px 0px 3px;
+  color: #8f8080;
+  font-size: 1.1rem;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.search-button {
+  position: relative;
+  bottom: 2px;
+  right: 6px;
+  border: 1px solid #d3d3d3;
+  border-radius: 0px 3px 3px 0px;
+  background-color: #f8f8f8;
+  padding: 0px;
+  margin: 0px;
+  width: 70px;
+  height: 34px;
+}
+
+.header-right {
+  float: right;
+  position: relative;
+  top: 17px;
 }
