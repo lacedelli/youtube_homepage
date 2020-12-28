@@ -6,7 +6,7 @@ body {
 
 .button-clear {
   border: none;
-  background-color: #fff;
+  background-color: inherit;
   display: inline-block;
 }
 
@@ -16,11 +16,33 @@ body {
 
 header {
   padding: 0px 16px;
-  margin: 0px;
   height: 56px;
   background-color: #fff;
 }
 
 header * {
   display: inline-block;
+}
+
+.header-left {
+  position:relative;
+  bottom: 7px;
+  padding: 13px 8px 8px 8px;
+}
+
+.hamburger {
+  height: 24px;
+  width: 24px;
+  background-size: 24px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png);
+}
+
+.youtube-logo {
+  position: relative;
+  top: 10px;
+  margin-left: 5px;
+  height: 21px;
+  width: 90px;
+  background-size: 90px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1280px-YouTube_Logo_2017.svg.png);
 }
