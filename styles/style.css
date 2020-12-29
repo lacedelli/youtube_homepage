@@ -123,3 +123,23 @@ header * {
   height: 27px;
   width: 23px;
 }
+
+.notifications {
+  position: relative;
+  left: 7px;
+  background-image: url(https://www.clipartkey.com/mpngs/m/63-631047_bell-svg-png-icon-free-download-notification-button.png);
+  background-size: 18px;
+  background-repeat: no-repeat;
+  height: 28px; 
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.profile {
+  vertical-align: middle;
+  margin-left: 15px;
+  height: 30px;
+  width: 30px;
+}
