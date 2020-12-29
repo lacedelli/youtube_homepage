@@ -14,8 +14,11 @@ body {
      HEADER
  ********************/
 
-.hamburgerw
+.hamburger,
 .youtube-logo,
+.search-button,
+.microphone,
+.upload-video,
 #search {
   cursor: pointer;
 }
@@ -81,10 +84,42 @@ header * {
   margin: 0px;
   width: 70px;
   height: 34px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1024px-Magnifying_glass_icon.svg.png);
+  background-size: 25px;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+.microphone {
+  position: relative;
+  bottom: 5px;
+  left: 10px;
+  height: 25px;
+  background-image: url(https://cdn.onlinewebfonts.com/svg/img_154758.png);
+  background-repeat: no-repeat;
+  background-size: 13px;
 }
 
 .header-right {
   float: right;
   position: relative;
   top: 17px;
+}
+
+.upload-video {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Video_camera_icon.svg/1200px-Video_camera_icon.svg.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 23px;
+}
+
+.apps {
+  position: relative;
+  left: 7px;
+  background-image: url(http://freevector.co/wp-content/uploads/2010/11/52097-nine-squares-of-phone-keyboard-buttons.png);
+  background-size: 16px;
+  background-repeat: no-repeat;
+  height: 27px;
+  width: 23px;
 }
