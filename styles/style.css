@@ -181,7 +181,7 @@ nav ul {
 
 nav li {
   cursor: pointer;
-  padding: 10px 0px 20px 70px;
+  padding: 20px 0px 20px 70px;
 }
 
 nav li:hover {
@@ -195,6 +195,10 @@ nav li:hover {
   background-position-x: 23px;
 }
 
+.main {
+  border-bottom: 2px solid #ddd;
+}
+
 .home {
   background-image: url(http://cdn.onlinewebfonts.com/svg/img_108937.svg);
 }
@@ -205,4 +209,27 @@ nav li:hover {
 
 .subscriptions {
   background-image: url(https://cdn.onlinewebfonts.com/svg/img_452455.png);
+}
+
+.library {
+  background-image: url(https://cdn.onlinewebfonts.com/svg/img_321952.png);
+}
+
+.history {
+  background-image: url(https://cdn.onlinewebfonts.com/svg/img_237796.png);
+}
+
+.watch-later {
+  background-image: url(https://cdn.onlinewebfonts.com/svg/img_61524.png);
+}
+
+.liked-videos {
+  background-image: url(https://cdn.onlinewebfonts.com/svg/img_90778.png);
+}
+.your-videos {
+  background-image: url(https://cdn.onlinewebfonts.com/svg/img_287124.png);
+}
+
+.view-more {
+  background-image: url(https://cdn.onlinewebfonts.com/svg/img_70126.png);
 }
