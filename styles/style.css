@@ -19,6 +19,9 @@ body {
 .search-button,
 .microphone,
 .upload-video,
+.apps,
+.notifications,
+.profile,
 #search {
   cursor: pointer;
 }
@@ -142,4 +145,33 @@ header * {
   margin-left: 15px;
   height: 30px;
   width: 30px;
+}
+
+.header-overlap {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  padding-left: 10px;
+  color: #606060;
+  font-weight: 200;
+  font-size: .8rem;
+  background-color: #fff;
+  width: 250px;
+  height: 100%;
+}
+
+.overlap {
+  position: absolute;
+  top: 17px;
+  height: 21px;
+  width: 90px;
+  background-size: 90px;
+}
+
+.home {
+  margin-left: 10px;
 }
