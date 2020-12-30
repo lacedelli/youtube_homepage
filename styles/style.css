@@ -149,16 +149,19 @@ header * {
 
 .header-overlap {
   margin-top: 15px;
-  margin-left: 20px;
+  margin-left: 0px;
+  padding-left: 20px;
+  padding-bottom: 17px;
+  border-bottom: 2px solid #ddd;
 }
 
 nav {
   position: fixed;
   top: 0px;
-  padding-left: 10px;
+  padding-left: 0px;
   color: #606060;
   font-weight: 200;
-  font-size: .8rem;
+  font-size: .9rem;
   background-color: #fff;
   width: 250px;
   height: 100%;
@@ -172,6 +175,34 @@ nav {
   background-size: 90px;
 }
 
+nav ul {
+  margin: 10px 0px;
+}
+
+nav li {
+  cursor: pointer;
+  padding: 10px 0px 20px 70px;
+}
+
+nav li:hover {
+  background-color: #eee;
+}
+
+.nav-icon {
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position-y: 17px;
+  background-position-x: 23px;
+}
+
 .home {
-  margin-left: 10px;
+  background-image: url(http://cdn.onlinewebfonts.com/svg/img_108937.svg);
+}
+
+.tendencies {
+  background-image: url(https://cdn.onlinewebfonts.com/svg/img_421699.png);
+}
+
+.subscriptions {
+  background-image: url(https://cdn.onlinewebfonts.com/svg/img_452455.png);
 }
