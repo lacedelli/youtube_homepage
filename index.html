@@ -10,7 +10,7 @@
 	<body>
 		<header>
 			<div class="header-left">
-				<button class="button-clear hamburger"></button>
+				<button class="button-clear hamburger" onclick="show_navbar()"></button>
 				<a href="#" class="youtube-logo" title"Página Principal de YouTube"> </a>
 			</div>
 			<div class="header-center">
@@ -27,9 +27,9 @@
 				<a class="user-icon"><img src="https://www.hdwallpaper.nu/wp-content/uploads/2015/02/Funny-Cat-Hidden.jpg" alt="user profile image" class="profile round"></a>
 			</div>
 		</header>
-		<nav>
+		<nav class="hide hidden">
 			<section class="header-overlap">
-				<button class="button-clear hamburger"></button>
+				<button class="button-clear hamburger" onclick="hide_navbar()"></button>
 				<a href="#" class="overlap youtube-logo" title"Página Principal de YouTube"></a>
 			</section>
 			<section class="main">
@@ -153,4 +153,26 @@
 			</ul>
 		</aside>
 	</body>
+	<script>
+		function hide_navbar() {
+			let navbar = document.getElementsByTagName("nav")[0];
+			removeClass(navbar, "show");
+			removeClass(navbar, "not-hidden");
+			addClass(navbar, "hide");
+			addClass(navbar, "hidden");
+		}
+		function show_navbar() {
+			let navbar = document.getElementsByTagName("nav")[0];
+			removeClass(navbar, "hidden");
+			removeClass(navbar, "hide");
+			addClass(navbar, "show");
+			addClass(navbar, "not-hidden");
+		}
+		function addClass(element, _class) {
+			element.classList.add(_class);
+		}
+		function removeClass(element, _class) {
+			element.classList.remove(_class);
+		}
+	</script>
 </html>

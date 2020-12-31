@@ -165,6 +165,7 @@ nav {
   background-color: #fff;
   width: 250px;
   height: 100%;
+  left: -250px;
 }
 
 .overlap {
@@ -232,4 +233,34 @@ nav li:hover {
 
 .view-more {
   background-image: url(https://cdn.onlinewebfonts.com/svg/img_70126.png);
+}
+
+/* navbar animation stuff */
+
+@keyframes navbar-hide {
+  from {left: 0;}
+  to {left: -250px;}
+}
+
+@keyframes navbar-show {
+  from {left: -250px;}
+  to {left: 0;}
+}
+
+.not-hidden {
+  left: 0px;
+}
+
+.hidden {
+  left: -250px;
+}
+
+.hide {
+  animation-name: navbar-hide;
+  animation-duration: .1s;
+}
+
+.show {
+  animation-name: navbar-show;
+  animation-duration: .1s;
 }
