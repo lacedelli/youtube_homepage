@@ -286,6 +286,12 @@ nav li:hover {
   border-bottom: 1px solid #d2d2d2;
 }
 
+.title-box {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom: 15px;
+}
+
 #video-title {
   font-size: 1.5rem;
   font-weight: bold;
