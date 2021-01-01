@@ -264,3 +264,8 @@ nav li:hover {
   animation-name: navbar-show;
   animation-duration: .1s;
 }
+
+.video-window {
+  margin-top: 20px;
+  margin-left: 30px;
+}
