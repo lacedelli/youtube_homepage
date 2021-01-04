@@ -265,6 +265,10 @@ nav li:hover {
   animation-duration: .1s;
 }
 
+.main {
+  float: left;
+}
+
 /*******************
    video window
 *******************/
@@ -316,4 +320,16 @@ nav li:hover {
   float: right;
   position: relative;
   top: -15px;
+}
+
+/********************
+   ASIDE STYLES
+********************/
+
+aside {
+  float: left;
+  margin-top: 18px;
+  margin-left: 25px;
+  margin-right: 25px;
+  
 }
