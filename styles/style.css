@@ -266,6 +266,7 @@ nav li:hover {
 }
 
 .main {
+  width: 70%;
   float: left;
 }
 
@@ -328,8 +329,52 @@ nav li:hover {
 
 aside {
   float: left;
+  width: 27%;
   margin-top: 18px;
-  margin-left: 25px;
+  margin-left: 10px;
   margin-right: 25px;
-  
+}
+
+.up-next {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 40px;
+  margin-bottom: 5px;
+}
+
+aside h4,
+.autoplay{
+  display: inline;
+}
+
+.autoplay {
+  font-size: .8rem;
+  text-transform: uppercase;
+}
+
+.thumbnail {
+  float: left;
+  margin-top: 5px;
+  margin-right: 10px;
+  display: block;
+  height: 80px;
+  width: 140px;
+  background-color: #aaa;
+}
+
+.thumbnail-info {
+  margin-top: 8px;
+  font-size: .9rem;
+}
+
+aside li {
+  overflow: auto;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
