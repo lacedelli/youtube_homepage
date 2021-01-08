@@ -34,7 +34,6 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: center; 
   padding: 0px 16px;  
   background-color: #fff;
   grid-row: 1;
@@ -46,7 +45,7 @@ header * {
 }
 
 .header-left {
-  padding: 13px 8px 8px 8px;
+  margin: 8px 20px 8px 8px;
 }
 
 .hamburger {
@@ -68,8 +67,7 @@ header * {
 
 .header-center {
   flex: auto;
-  left: 150px;
-  bottom: 1px;
+  margin: 10px 10px 10px 100px;
 }
 
 #search {
@@ -112,6 +110,7 @@ header * {
 
 .header-right {
   align-self: end;
+  margin: 10px;
 }
 
 .upload-video {
