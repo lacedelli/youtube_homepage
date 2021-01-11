@@ -328,13 +328,48 @@ nav li:hover {
   top: -15px;
 }
 
+.rating-box {
+  border-bottom: 2px solid #444;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.like {
+  background-image: url(http://cdn.onlinewebfonts.com/svg/img_80687.png);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position-y: -2px;
+  width: 100px;
+  height: 30px;
+}
+
+.dislike {
+  background-image: url(https://cdn.onlinewebfonts.com/svg/img_80688.png);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position-y: 2px;
+  width: 100px;
+  height: 30px;
+}
+
+.video-info {
+  display: flex;  
+}
+
+.info-left {
+  display: flex;
+}
+
+.channel-art {
+  width: 50px;
+  height: 50px;
+}
+
 /********************
    ASIDE STYLES
 ********************/
 
 .recommendations {
-  float: left;
-  width: 27%;
   margin-top: 18px;
   margin-left: 10px;
   margin-right: 25px;
@@ -383,3 +418,4 @@ aside li {
   clear: both;
   display: table;
 }
+
