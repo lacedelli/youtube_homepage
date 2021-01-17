@@ -529,10 +529,60 @@ aside li {
   margin-right: 5px;
   margin-top: 10px;
   color: #fff;
+  text-transform: uppercase;
   font-size: 1rem;
   background-color: #bbb;
 }
 
 #cancel {
   margin-right: 59px;
+}
+
+.comment {
+  display: flex;
+}
+
+.comment .profile {
+  margin-right: 20px;
+}
+
+.comment .username {
+  display: inline;
+  font-weight: bold;
+}
+
+.comment .posted-at {
+  display: inline;
+  color: #bbb;
+  font-size: .9rem;
+}
+
+.comment .comment-body {
+  margin-top: 10px;
+}
+
+.comment ul {
+  padding-top: 10px;
+}
+.comment li {
+  display: inline;
+}
+
+.comment button {
+  background-size: 19px;
+  padding-right: 15px;
+}
+
+.comment .like {
+  background-position-y: 3px;
+}
+
+.comment .dislike {
+  padding-left: 30px;
+}
+
+.comment .answer {
+  text-transform: uppercase;
+  color: #aaa;
+  font-size: .8rem;
 }
